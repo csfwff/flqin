@@ -7,6 +7,7 @@ import sGithub from './assets/s_github.svg';
 import sBlog from './assets/s_blog.svg';
 import sZh from './assets/s_zh.svg';
 import sWb from './assets/s_Wb.svg';
+import eAndroid from './assets/e_android.jpg';
 export default {
   cn: {
     header: {
@@ -133,7 +134,7 @@ export default {
           time: '2017年4月~至今',
           post: 'Android开发工程师/前端工程师',
           img: {
-            // backgroundImage: `url(${eJm})`
+             backgroundImage: `url(${eAndroid})`
           },
           contentList: ['负责快速构建高质量Android应用', '根据业务需求设计合适的工程项目', '负责微信小程序的开发与维护', '负责Android应用在各大应用市场的上架与更新']
         },
@@ -142,7 +143,7 @@ export default {
           time: '2016年7月~2017年3月',
           post: 'Android开发工程师',
           img: {
-            // backgroundImage: `url(${eLt})`
+             backgroundImage: `url(${eAndroid})`
           },
           contentList: ['负责公司Android应用开发', '负责Android应用测试', '同期工作之余学习微信小程序']
         }
@@ -152,7 +153,8 @@ export default {
       worksList: [
         {
           title: '香榧林',
-          des: '手机香榧林专为用户退出的满足线上购买香榧树的软件，具有商品浏览，购买，支付，订单查询等功能，现已上架应用宝。'
+          des: '手机香榧林专为用户退出的满足线上购买香榧树的软件，具有商品浏览，购买，支付，订单查询等功能，现已上架应用宝。',
+          url:'https://sj.qq.com/myapp/detail.htm?apkName=com.mutong.xiangfeilin'
         },
         {
           title: '斗地主游戏',
@@ -160,7 +162,9 @@ export default {
         },
         {
           title: '云电',
-          des: '智能充电系统，通过扫描门店设备上的二维码开启设备给手机充电，同时覆盖Android，iOS，微信小程序，微信网页，支付宝网页等多个平台。'
+          des: '智能充电系统，通过扫描门店设备上的二维码开启设备给手机充电，同时覆盖Android，iOS，微信小程序，微信网页，支付宝网页等多个平台。',
+          url:'https://sj.qq.com/myapp/detail.htm?apkName=com.dongdaozhu.yundian'
+
         },
         {
           title: '报单系统',
@@ -169,33 +173,33 @@ export default {
         {
           title: '篆鼠识别',
           des: '首款能够认识小篆文字的OCR软件，基于Tesseract—OCR识别引擎，同时集成说文解字查询，简体字转换。',
-          url: 'http://hapjs.org/app/com.jm.quickapp'
+          url: 'https://sj.qq.com/myapp/detail.htm?apkName=com.xiamo.zuanshu'
         },
         {
           title: '双生日记',
           des:
             '写春花秋月事，感喜乐怨哀情。双生可以在你写日记的同时匹配更多同类型心情的日记主人，一起分享彼此的心情，共建友谊。通过自研的 NLP 多维情感分析算法结合自研大五人格量表分析出用户的情绪状态，并配合专业的心理学知识，生成可视化情绪周期图表，为用户生成定制化的、科学的情绪管理方案。',
-          url: 'https://h5.jumei.com'
+          url: 'https://github.com/csfwff/2life'
         },
         {
           title: '论道',
           des: '最友善最认真的高质量中文知识型讨论社区。在论道，你可以基于广泛的话题进行「提出问题」,「回答问题」,「发表文章」,「参与讨论」,「私信交流」等活动。',
-          url: 'http://r.jumei.com'
+          url: 'https://www.lundao.pub/'
         },
         {
           title: '墨璃编辑器',
           des: ' Android Markdown 编辑器，基于b3log/vditor。',
-          url: 'http://app.cufe.edu.cn/'
+          url: 'https://github.com/csfwff/Android-Markdown-Editor'
         },
         {
           title: 'ATab',
           des: '仿爱奇艺底部Tabbar的自定义控件，实现相应的动画效果',
-          url: ''
+          url: 'https://github.com/csfwff/ATab'
         },
         {
           title: 'Bolo博客',
           des: '基于B3log搭建个人博客系统，参与博客设计以及部分皮肤开发，并参与B3log开源组织。',
-          url: ''
+          url: 'https://github.com/csfwff/bolo-solo'
         }
       ],
       viewMore: 'github上面查看更多'

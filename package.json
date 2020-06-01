@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "赵柯宇的web前端工程师简历",
   "main": "dist/index.html",
-  "homepage": "https://www.flqin.com",
+  "homepage": ".",
   "keywords": [
     "web前端",
     "web",
