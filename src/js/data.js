@@ -1,19 +1,13 @@
-import eTx from './../assets/logo_tx.png';
-import eJm from './../assets/logo_jm.png';
-import eLt from './../assets/logo_lt.png';
-import eZh from './../assets/logo_zh.png';
 import dHome from './../assets/d_home.svg';
 import dSkills from './../assets/d_skills.svg';
 import dExp from './../assets/d_exp.svg';
 import dWorks from './../assets/d_works.svg';
 import dContact from './../assets/d_contact.svg';
 import sGithub from './../assets/s_github.svg';
-import sSf from './../assets/s_sf.svg';
 import sBlog from './../assets/s_blog.svg';
 import sZh from './../assets/s_zh.svg';
-import sJj from './../assets/s_Jj.svg';
-import wJm from './../assets/w_jm.jpg';
-import wLs from './../assets/w_ls.jpg';
+import sWb from './../assets/s_wb.svg';
+import eAndroid from './../assets/e_android.jpg';
 
 export default {
   cn: {
@@ -84,7 +78,7 @@ export default {
           bg: {
             backgroundColor: 'rgba(117,148,179,0.8)'
           },
-          name: '快应用'
+          name: 'VUE'
         },
         {
           bg: {
@@ -130,18 +124,42 @@ export default {
         '有良好的Java语言基础，熟悉面向对象编程思维',
         '熟悉React 和 React Native',
         '掌握APP应用开发基本框架，掌握Android各类控件',
+        '掌握常用的布局，消息传递，获取网络图片异步加载，分页等。',
         '熟悉网络请求，Json解析,熟悉常用的第三方SDK',
-        '熟悉微信小程序，熟悉Cocos Creator游戏引擎'
+        '熟悉微信小程序，UniApp，，熟悉Cocos Creator游戏引擎',
+        '熟悉React，React Native，熟悉阿里antd，熟悉相关api',
+        '熟悉Vue，熟悉Element UI',
+        '热爱编程，对技术有热切渴望，自学能力强，能快速掌握新知识，并用于开发。',
+        '希望通过学习进一步提升自我。',
+        '敢于挑战，为人诚恳，具有良好的团队合作精神。'
       ]
     },
     exp: {
       expList: [
         {
+          title: '浙江云澎科技有限公司',
+          time: '2021年6月~至今',
+          post: 'Android开发工程师',
+          img: {
+            backgroundImage: `url(${eAndroid})`
+          },
+          contentList: ['负责公司Android 项目开发','对接各种硬件接口，完成设备间通信','根据需求快速完成页面搭建，与服务端对接接口联调','测试app，排查bug，管理维护现有项目']
+        },
+        {
+          title: '浙江亿点通信息科技有限公司',
+          time: '2020年6月~2021年6月',
+          post: 'Android开发工程师',
+          img: {
+            backgroundImage: `url(${eAndroid})`
+          },
+          contentList: ['根据需求文档快速实现移动端页面','对接服务端接口，完成数据交互','测试app，排查bug并及时发布新版本','对现有项目进行管理维护']
+        },
+        {
           title: '金华云电科技有限公司',
-          time: '2017年4月~至今',
+          time: '2017年4月~2020年6月',
           post: 'Android开发工程师/前端工程师',
           img: {
-             backgroundImage: `url(${eAndroid})`
+            backgroundImage: `url(${eAndroid})`
           },
           contentList: ['负责快速构建高质量Android应用', '根据业务需求设计合适的工程项目', '负责微信小程序的开发与维护', '负责Android应用在各大应用市场的上架与更新']
         },
@@ -150,7 +168,7 @@ export default {
           time: '2016年7月~2017年3月',
           post: 'Android开发工程师',
           img: {
-             backgroundImage: `url(${eAndroid})`
+            backgroundImage: `url(${eAndroid})`
           },
           contentList: ['负责公司Android应用开发', '负责Android应用测试', '同期工作之余学习微信小程序']
         }
@@ -159,9 +177,21 @@ export default {
     works: {
       worksList: [
         {
+          title: '点餐收银结算app',
+          des: '根据产品需求，实现点餐，收银等结算，对接刷卡支付，扫码支付，人脸识别支付相关功能，对接串口，实现与其他设备间通信，对接打印机，实现订单打印等'
+        },
+        {
+          title: 'GSP验证管理系统',
+          des: '项目使用ruoyi框架，用于gsp认证的过程记录和认证文件的生成,主要负责前端开发，使用Vue和Element ui，使用axios进行网络数据请求,使用echarts绘制各种图表'
+        },
+        {
+          title: '惠集中',
+          des: '同城优惠买单小程序，用小程序买单可以享收折扣优惠，积分抵扣等特权,包含商城模块，实现商品购买以及核销相关功能。'
+        },
+        {
           title: '香榧林',
           des: '手机香榧林专为用户退出的满足线上购买香榧树的软件，具有商品浏览，购买，支付，订单查询等功能，现已上架应用宝。',
-          url:'https://sj.qq.com/myapp/detail.htm?apkName=com.mutong.xiangfeilin'
+          url: 'https://sj.qq.com/myapp/detail.htm?apkName=com.mutong.xiangfeilin'
         },
         {
           title: '斗地主游戏',
@@ -170,7 +200,7 @@ export default {
         {
           title: '云电',
           des: '智能充电系统，通过扫描门店设备上的二维码开启设备给手机充电，同时覆盖Android，iOS，微信小程序，微信网页，支付宝网页等多个平台。',
-          url:'https://sj.qq.com/myapp/detail.htm?apkName=com.dongdaozhu.yundian'
+          url: 'https://sj.qq.com/myapp/detail.htm?apkName=com.dongdaozhu.yundian'
 
         },
         {
@@ -233,7 +263,7 @@ export default {
         },
         {
           icon: sBlog,
-          url: 'https://www.sszsj.top'
+          url: 'https://www.sszsj.cc'
         },
         {
           icon: sZh,
