@@ -1,11 +1,12 @@
 module.exports = {
   plugins: {
-    autoprefixer: {},
+    'postcss-preset-env': {},
     'postcss-pxtorem': {
-      rootValue: 32,
+      rootValue: 75,
       propList: ['*'],
       minPixelValue: 3,
-      mediaQuery: false
+      mediaQuery: false,
+      exclude: /media/
     }
   }
 };
