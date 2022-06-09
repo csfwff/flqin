@@ -143,7 +143,7 @@ export default {
           img: {
             backgroundImage: `url(${eAndroid})`
           },
-          contentList: ['负责公司Android 项目开发','对接各种硬件接口，完成设备间通信','根据需求快速完成页面搭建，与服务端对接接口联调','测试app，排查bug，管理维护现有项目']
+          contentList: ['负责公司Android 项目开发', '对接各种硬件接口，完成设备间通信', '根据需求快速完成页面搭建，与服务端对接接口联调', '测试app，排查bug，管理维护现有项目']
         },
         {
           title: '浙江亿点通信息科技有限公司',
@@ -152,7 +152,7 @@ export default {
           img: {
             backgroundImage: `url(${eAndroid})`
           },
-          contentList: ['根据需求文档快速实现移动端页面','对接服务端接口，完成数据交互','测试app，排查bug并及时发布新版本','对现有项目进行管理维护']
+          contentList: ['根据需求文档快速实现移动端页面', '对接服务端接口，完成数据交互', '测试app，排查bug并及时发布新版本', '对现有项目进行管理维护']
         },
         {
           title: '金华云电科技有限公司',
@@ -201,7 +201,6 @@ export default {
           title: '云电',
           des: '智能充电系统，通过扫描门店设备上的二维码开启设备给手机充电，同时覆盖Android，iOS，微信小程序，微信网页，支付宝网页等多个平台。',
           url: 'https://sj.qq.com/myapp/detail.htm?apkName=com.dongdaozhu.yundian'
-
         },
         {
           title: '报单系统',
