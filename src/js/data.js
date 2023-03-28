@@ -38,9 +38,9 @@ export default {
     },
     footer: ['Released under the MIT License', 'All Rights Reserved ', `Copyright © 2014-${new Date().getFullYear()} TMX`],
     overview: {
-      infoList: ['28岁', '本科', '金华', '在职'],
+      infoList: ['31岁', '本科', '金华', '在职'],
       quote: '我是不慎落入世界的一滴水墨',
-      desList: ['我叫唐墨夏', '一名Android开发工程师，前端工程师', '邮箱：csfwff@163.com', '手机：17706841382（微信同号）', 'QQ：873997011', '个人主页：https://www.sszsj.top/']
+      desList: ['我叫唐墨夏', '一名Android开发工程师，前端工程师', '邮箱：csfwff@163.com', '手机：17706841382（微信同号）', 'QQ：873997011', '个人主页：https://www.sszsj.cc/']
     },
     skill: {
       outCircleList: [
@@ -126,7 +126,7 @@ export default {
         '掌握APP应用开发基本框架，掌握Android各类控件',
         '掌握常用的布局，消息传递，获取网络图片异步加载，分页等。',
         '熟悉网络请求，Json解析,熟悉常用的第三方SDK',
-        '熟悉微信小程序，UniApp，，熟悉Cocos Creator游戏引擎',
+        '熟悉微信小程序，UniApp，熟悉Cocos Creator游戏引擎',
         '熟悉React，React Native，熟悉阿里antd，熟悉相关api',
         '熟悉Vue，熟悉Element UI',
         '热爱编程，对技术有热切渴望，自学能力强，能快速掌握新知识，并用于开发。',
@@ -177,12 +177,21 @@ export default {
     works: {
       worksList: [
         {
+          title: 'Rhythm开源社区系统',
+          des: '使用Java二次开发的开源社区系统，包含聊天室，发帖，回帖，问答，清风明月，在线小游戏等等功能',
+          url: 'https://fishpi.cn/'
+        },
+        {
           title: '点餐收银结算app',
           des: '根据产品需求，实现点餐，收银等结算，对接刷卡支付，扫码支付，人脸识别支付相关功能，对接串口，实现与其他设备间通信，对接打印机，实现订单打印等'
         },
         {
-          title: 'GSP验证管理系统',
-          des: '项目使用ruoyi框架，用于gsp认证的过程记录和认证文件的生成,主要负责前端开发，使用Vue和Element ui，使用axios进行网络数据请求,使用echarts绘制各种图表'
+          title: '智能称重结算系统',
+          des: '根据场景需求，使用摄像头识别人脸，通过串口读取电子秤数据，实现自助取餐，按重计费，按需取餐结算，就餐者可选择性更多，避免就餐者多拿或者少拿，真正做到光盘行动'
+        },
+        {
+          title: '智能点餐接单系统',
+          des: '通过多款APP，实现用户在线下点餐机，小程序上自助点餐，餐厅工具人员通过接单设备接取订单并制作餐品，最后通过叫号屏呼叫用户取餐，避免用餐人员排队'
         },
         {
           title: '惠集中',
@@ -246,14 +255,14 @@ export default {
       desList2: ['热爱学习，想要获取更多知识', '喜欢尝试，期待新鲜事物', '爱生活，爱游戏', '和朋友一起创造激动人心的代码'],
       download: '下载简历',
       fileList: [
-        {
-          title: 'HTML版',
-          url: 'www.baidu.com'
-        },
-        {
-          title: 'PDF版',
-          url: 'www.baidu.com'
-        }
+        // {
+        //   title: 'HTML版',
+        //   url: 'www.baidu.com'
+        // },
+        // {
+        //   title: 'PDF版',
+        //   url: 'www.baidu.com'
+        // }
       ],
       typeList: [
         {
