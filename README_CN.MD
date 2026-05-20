@@ -1,98 +1,63 @@
-<h2 align="center"><a href='https://resume.flqin.com' target='_blank'>前端工程师简历</a></h2>
-<p align="center">
-  <a href='https://github.com/zhaoky/flqin'><img src='https://img.shields.io/github/last-commit/zhaoky/flqin' alt='GitHub last commit' /></a>
-  <a href="https://www.npmjs.com/package/@fe_korey/resume"><img src="https://img.shields.io/npm/dm/@fe_korey/resume.svg" alt="Downloads"></a>
-  <a href="https://github.com/zhaoky/flqin/actions"><img src="https://github.com/zhaoky/flqin/workflows/Action CI/badge.svg" alt="Actions Status"></a>
-  <a href='https://www.npmjs.com/package/@fe_korey/resume'><img src='https://img.shields.io/npm/l/@fe_korey/resume' alt='NPM' /></a>
-  <a href='https://www.npmjs.com/package/@fe_korey/resume'><img src='https://img.shields.io/npm/v/@fe_korey/resume' alt='npm (scoped)' /></a>
-</p>
+<h2 align="center">唐墨夏 Web前端 / Android 开发工程师简历</h2>
 
 [English](./README.md) | 中文
 
-#### 百度搜索: [web 前端工程师简历](https://www.baidu.com/s?ie=UTF-8&wd=web%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%AE%80%E5%8E%86)
+## 项目说明
 
-![web前端工程师简历截图](https://raw.githubusercontent.com/zhaoky/flqin/master/src/assets/web.jpg)
+这是唐墨夏的个人在线简历项目，内容覆盖 Web 前端、Android、UniApp 多端小程序、后台管理系统、Node.js 与移动端设备项目经历。
 
-## MISC
+项目包含两种页面：
 
-很多前端的朋友给我发邮件学习怎么制作这样的简历，其实你只需要将本项目 fork，按照本README试着将项目跑起来就可以了！
+- `yarn run dev` / `yarn run build`：基于 `@fe_korey/mvvm` 的动态简历页
+- `yarn run dev:seo` / `yarn run build:seo`：面向 SEO 的静态简历页
 
-本项目包含技术栈：
+## 技术栈
 
 - `html`
 - `es6`
 - `less`
-- `eslint/stylelint/prettier`
-- `webpack/babel/postcss`
-- `husky/actions/lint-staged`
+- `webpack / babel / postcss`
+- `eslint / stylelint / prettier`
+- `@fe_korey/mvvm`
+- `@fe_korey/fullpage`
 
-麻雀虽小，五脏俱全。是一个值得初学者学习的功能架构完善的入门前端项目。
+## 项目启动
 
-出于 `SEO` 及初学者学习的考虑，本项目分别实现一个 [纯静态页](https://resume.flqin.com) 和一个基于自研[MVVM](https://github.com/zhaoky/mvvm) 的 [中英双版页](https://flqin.com/resume)。
-
-有任何疑问和建议请[点击此处](https://github.com/zhaoky/flqin/issues)，互相学习，共同进步！
-
-喜欢请点个 star 吧！💕💕
-
-## 项目启动流程
-
-1. 克隆本项目
-
-```bash
-git clone https://github.com/zhaoky/flqin.git
-```
-
-2. 进入项目
-
-```bash
-cd flqin
-```
-
-3. 安装依赖
+1. 安装依赖
 
 ```bash
 yarn
 ```
 
-4. 启动 开发模式，用于实时调试
+2. 启动开发模式
 
 ```bash
-yarn run dev:seo // seo 版纯静态页
-yarn run dev // mvvm 中英双版页
+yarn run dev
+yarn run dev:seo
 ```
 
-调试地址： `http://0.0.0.0:8080/`
+开发地址：`http://0.0.0.0:8080/`
 
-5. 启动生成模式，打包产品级代码
+3. 打包生产代码
 
 ```bash
-yarn run build:seo // seo 版纯静态页
-yarn run build // mvvm 中英双版页
+yarn run build
+yarn run build:seo
 ```
 
-6. 启动包分析模式，可以分析包大小
+4. 检查代码
 
 ```bash
-yarn run analyze:seo // seo 版纯静态页
-yarn run analyze // mvvm 中英双版页
+yarn run lint
 ```
 
-9. 检查代码及自动修复
+## 简历信息
 
-```bash
-yarn run lint // 检查
-yarn run fix // 修复
-```
-
-## 项目支持
-
-### [@korey/MVVM](https://github.com/zhaoky/mvvm)
-
-因 `MVVM` 框架众多且在不断更新，并出于学习的目的，最终选择自己实现了一个简易的 `MVVM` 框架，目前实现了 `data-binding` 和 `view-refresh` 的功能。
-
-### [@korey/Fullpage](https://github.com/zhaoky/fullpage)
-
-一个简易的 `Fullpage` 框架，目前实现了上拉下拉，滑轮滚动，锚点直达的全屏翻页功能。
+- 姓名：唐墨夏
+- 求职意向：Web前端 / Android
+- 现居城市：金华
+- 邮箱：csfwff@163.com
+- 个人网站：https://sszsj.com/
 
 ## License
 

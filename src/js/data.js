@@ -38,9 +38,9 @@ export default {
     },
     footer: ['Released under the MIT License', 'All Rights Reserved ', `Copyright © 2014-${new Date().getFullYear()} TMX`],
     overview: {
-      infoList: ['31岁', '本科', '金华', '在职'],
-      quote: '我是不慎落入世界的一滴水墨',
-      desList: ['我叫唐墨夏', '一名Android开发工程师，前端工程师', '邮箱：csfwff@163.com', '手机：17706841382（微信同号）', 'QQ：873997011', '个人主页：https://www.sszsj.cc/']
+      infoList: ['34岁', '本科', '金华', '男'],
+      quote: '持续追求代码质量、项目稳定性与用户体验优化',
+      desList: ['我叫唐墨夏', '10年移动端与前端全栈开发经验', '求职意向：Web前端 / Android', '邮箱：csfwff@163.com', '手机：17706841382（微信：csfwff）', '个人网站：https://sszsj.com/']
     },
     skill: {
       outCircleList: [
@@ -54,43 +54,43 @@ export default {
           bg: {
             backgroundColor: 'rgba(49,65,82,0.8)'
           },
-          name: 'React'
+          name: 'UniApp'
         },
         {
           bg: {
             backgroundColor: 'rgba(76,157,160,0.8)'
           },
-          name: 'ReactNative'
+          name: 'Vue'
         },
         {
           bg: {
             backgroundColor: 'rgba(66,66,66,0.8)'
           },
-          name: 'nodejs'
+          name: 'Node.js'
         },
         {
           bg: {
             backgroundColor: 'rgba(193,131,106,0.8)'
           },
-          name: '小程序'
+          name: '多端小程序'
         },
         {
           bg: {
             backgroundColor: 'rgba(117,148,179,0.8)'
           },
-          name: 'VUE'
+          name: 'React'
         },
         {
           bg: {
             backgroundColor: 'rgba(71,83,94,0.8)'
           },
-          name: 'git'
+          name: 'Element UI'
         },
         {
           bg: {
             backgroundColor: 'rgba(147,147,189,0.8)'
           },
-          name: 'svn'
+          name: 'AI Coding'
         }
       ],
       innerCircleList: [
@@ -104,146 +104,130 @@ export default {
           bg: {
             backgroundColor: 'rgba(171,209,220,0.8)'
           },
-          name: 'FreeMarker'
+          name: 'Kotlin'
         },
         {
           bg: {
             backgroundColor: 'rgba(238,215,163,0.8)'
           },
-          name: 'javascript'
+          name: 'JavaScript'
         },
         {
           bg: {
             backgroundColor: 'rgba(207,184,178,0.8)'
           },
-          name: 'Kotlin'
+          name: 'Flutter'
         }
       ],
       desList: [
-        '熟悉Java和Android，熟悉Kotlin语言',
-        '有良好的Java语言基础，熟悉面向对象编程思维',
-        '熟悉React 和 React Native',
-        '掌握APP应用开发基本框架，掌握Android各类控件',
-        '掌握常用的布局，消息传递，获取网络图片异步加载，分页等。',
-        '熟悉网络请求，Json解析,熟悉常用的第三方SDK',
-        '熟悉微信小程序，UniApp，熟悉Cocos Creator游戏引擎',
-        '熟悉React，React Native，熟悉阿里antd，熟悉相关api',
-        '熟悉Vue，熟悉Element UI',
-        '热爱编程，对技术有热切渴望，自学能力强，能快速掌握新知识，并用于开发。',
-        '希望通过学习进一步提升自我。',
-        '敢于挑战，为人诚恳，具有良好的团队合作精神。'
+        '拥有10年移动端与前端全栈开发经验，具备扎实的Java/Kotlin语言基础',
+        '精通Android原生开发，可独立搭建APP框架、自定义控件与复杂界面',
+        '熟悉网络请求、JSON解析、消息推送、异步图片加载、列表分页等核心能力',
+        '熟悉微信、抖音、淘宝、千牛小程序及UniApp多端开发、适配、编译发布',
+        '精通Vue、Element UI，可高效搭建后台管理系统与业务中台',
+        '熟练使用React、React Native、Ant Design开发网页与跨端应用',
+        '掌握Node.js，可进行接口开发、脚本编写与前后端分离项目协作',
+        '熟练对接微信、支付宝、高德、极光等第三方SDK',
+        '熟练使用Git、SVN版本控制工具，擅长运用Codex、Claude Code等AI编码工具',
+        '具备良好的需求理解、团队协作与项目迭代能力，勇于接受技术挑战'
       ]
     },
     exp: {
       expList: [
         {
+          title: '金华仙娱科技有限公司',
+          time: '2023年06月~至今',
+          post: '前端 / Android 开发工程师',
+          img: {
+            backgroundImage: `url(${eAndroid})`
+          },
+          contentList: [
+            '负责微信 / 抖音 / 淘宝 / 千牛多端小程序、移动端APP及后台管理系统开发',
+            '完成接口联调、数据对接、登录授权、支付流程、权限控制等核心功能',
+            '负责线上BUG修复、机型适配、性能优化，解决兼容性、加载卡顿、数据异常问题',
+            '基于UniApp、Vue、Element UI搭建页面，使用AI工具提升开发效率',
+            '独立负责自动发卡网站、选号小程序、云仓管理系统、珍宝阁交易APP等项目'
+          ]
+        },
+        {
           title: '浙江云澎科技有限公司',
-          time: '2021年6月~至今',
+          time: '2021年07月~2023年05月',
+          post: '前端 / Android 开发工程师',
+          img: {
+            backgroundImage: `url(${eAndroid})`
+          },
+          contentList: [
+            '负责公司Android项目开发与维护，对接硬件接口、串口通信，实现设备数据交互',
+            '快速完成页面搭建、接口联调、APP测试、BUG修复与版本发布',
+            '参与点餐收银、智能称重、智能接单等Android设备端项目开发'
+          ]
+        },
+        {
+          title: '浙江亿点通 / 金华云电 / 浙江时利科技',
+          time: '2016年07月~2021年06月',
           post: 'Android开发工程师',
           img: {
             backgroundImage: `url(${eAndroid})`
           },
-          contentList: ['负责公司Android 项目开发', '对接各种硬件接口，完成设备间通信', '根据需求快速完成页面搭建，与服务端对接接口联调', '测试app，排查bug，管理维护现有项目']
-        },
-        {
-          title: '浙江亿点通信息科技有限公司',
-          time: '2020年6月~2021年6月',
-          post: 'Android开发工程师',
-          img: {
-            backgroundImage: `url(${eAndroid})`
-          },
-          contentList: ['根据需求文档快速实现移动端页面', '对接服务端接口，完成数据交互', '测试app，排查bug并及时发布新版本', '对现有项目进行管理维护']
-        },
-        {
-          title: '金华云电科技有限公司',
-          time: '2017年4月~2020年6月',
-          post: 'Android开发工程师/前端工程师',
-          img: {
-            backgroundImage: `url(${eAndroid})`
-          },
-          contentList: ['负责快速构建高质量Android应用', '根据业务需求设计合适的工程项目', '负责微信小程序的开发与维护', '负责Android应用在各大应用市场的上架与更新']
-        },
-        {
-          title: '浙江时利科技有限公司',
-          time: '2016年7月~2017年3月',
-          post: 'Android开发工程师',
-          img: {
-            backgroundImage: `url(${eAndroid})`
-          },
-          contentList: ['负责公司Android应用开发', '负责Android应用测试', '同期工作之余学习微信小程序']
+          contentList: [
+            '负责Android APP界面开发、接口对接、数据交互、测试上线与应用市场上架',
+            '参与小程序、网页、小游戏、充电APP、商超APP等项目开发',
+            '熟练使用Java、Retrofit、RxJava、EventBus进行原生开发与性能优化'
+          ]
         }
       ]
     },
     works: {
       worksList: [
         {
+          title: '选号网多端平台（UniApp）',
+          des: '2024年09月起负责抖音小程序、淘宝网站、H5三端前端开发，一套代码多端发布。实现账号展示、筛选、下单、支付、订单管理全流程，并通过数据预取、预加载、滑动优化解决长列表卡顿问题。'
+        },
+        {
+          title: '云仓账号管理系统（Vue+Element UI）',
+          des: '2023年11月起负责账号入库、库存统计、权限分配、商户通货等管理功能，支持批量导入导出、数据可视化、第三方系统对接，满足高并发、多商户运营需求。'
+        },
+        {
           title: 'Rhythm开源社区系统',
-          des: '使用Java二次开发的开源社区系统，包含聊天室，发帖，回帖，问答，清风明月，在线小游戏等等功能',
-          url: 'https://fishpi.cn/'
+          des: '使用Java二次开发的开源社区系统，包含聊天室、发帖、回帖、问答、清风明月、在线小游戏等功能，具备完整管理后台、用户权限系统、标签、领域、审计日志等模块。',
+          url: 'https://github.com/csfwff/rhythm'
         },
         {
-          title: '点餐收银结算app',
-          des: '根据产品需求，实现点餐，收银等结算，对接刷卡支付，扫码支付，人脸识别支付相关功能，对接串口，实现与其他设备间通信，对接打印机，实现订单打印等'
+          title: '自动发卡系统',
+          des: '2024年03月至2025年10月负责Node+Vue3前后端分离系统，对接抖店开放平台，实现订单自动接收、卡密自动采购、自动发货、状态回传，支持多供应商调度、故障自动切换与接口重试。'
         },
         {
-          title: '智能称重结算系统',
-          des: '根据场景需求，使用摄像头识别人脸，通过串口读取电子秤数据，实现自助取餐，按重计费，按需取餐结算，就餐者可选择性更多，避免就餐者多拿或者少拿，真正做到光盘行动'
+          title: '点餐收银 / 智能称重 Android 项目',
+          des: '开发Android设备端APP，实现人脸识别、刷卡 / 扫码支付、小票打印，对接串口、电子秤、摄像头、打印机等硬件，并封装通用基础库支持多项目复用。'
         },
         {
-          title: '智能点餐接单系统',
-          des: '通过多款APP，实现用户在线下点餐机，小程序上自助点餐，餐厅工具人员通过接单设备接取订单并制作餐品，最后通过叫号屏呼叫用户取餐，避免用餐人员排队'
-        },
-        {
-          title: '惠集中',
-          des: '同城优惠买单小程序，用小程序买单可以享收折扣优惠，积分抵扣等特权,包含商城模块，实现商品购买以及核销相关功能。'
-        },
-        {
-          title: '香榧林',
-          des: '手机香榧林专为用户退出的满足线上购买香榧树的软件，具有商品浏览，购买，支付，订单查询等功能，现已上架应用宝。',
+          title: '香榧林 / 在线商超 / 斗地主 APP',
+          des: '负责原生Android开发，实现商品浏览、下单支付、订单查询、游戏逻辑等功能，完成APP测试、优化、应用市场发布，并使用Cocos Creator开发斗地主，适配Android、iOS双端。',
           url: 'https://sj.qq.com/myapp/detail.htm?apkName=com.mutong.xiangfeilin'
         },
         {
-          title: '斗地主游戏',
-          des: '斗地主游戏，实现在线匹配，打牌，每日任务，奖励兑换等功能，实现包括顺子，飞机，炸弹等相关游戏效果，实现出牌逻辑判断等。'
-        },
-        {
-          title: '云电',
-          des: '智能充电系统，通过扫描门店设备上的二维码开启设备给手机充电，同时覆盖Android，iOS，微信小程序，微信网页，支付宝网页等多个平台。',
-          url: 'https://sj.qq.com/myapp/detail.htm?apkName=com.dongdaozhu.yundian'
-        },
-        {
-          title: '报单系统',
-          des: '为代理商打造的在线报单系统，实现用户在线购买产品，用户间推荐奖励结算，具有完整的购物车，订单系统，奖励核算等。'
-        },
-        {
-          title: '篆鼠识别',
-          des: '首款能够认识小篆文字的OCR软件，基于Tesseract—OCR识别引擎，同时集成说文解字查询，简体字转换。',
-          url: 'https://sj.qq.com/myapp/detail.htm?apkName=com.xiamo.zuanshu'
-        },
-        {
-          title: '双生日记',
-          des:
-            '写春花秋月事，感喜乐怨哀情。双生可以在你写日记的同时匹配更多同类型心情的日记主人，一起分享彼此的心情，共建友谊。通过自研的 NLP 多维情感分析算法结合自研大五人格量表分析出用户的情绪状态，并配合专业的心理学知识，生成可视化情绪周期图表，为用户生成定制化的、科学的情绪管理方案。',
-          url: 'https://github.com/csfwff/2life'
-        },
-        {
-          title: '论道',
-          des: '最友善最认真的高质量中文知识型讨论社区。在论道，你可以基于广泛的话题进行「提出问题」,「回答问题」,「发表文章」,「参与讨论」,「私信交流」等活动。',
-          url: 'https://www.lundao.pub/'
-        },
-        {
-          title: '墨璃编辑器',
-          des: ' Android Markdown 编辑器，基于b3log/vditor。',
-          url: 'https://github.com/csfwff/Android-Markdown-Editor'
-        },
-        {
           title: 'ATab',
-          des: '仿爱奇艺底部Tabbar的自定义控件，实现相应的动画效果',
+          des: '仿爱奇艺底部导航栏的自定义控件，实现相应的动画效果。',
           url: 'https://github.com/csfwff/ATab'
         },
         {
+          title: '双生日记',
+          des: '一款与众不同的日记APP，围绕心情记录、内容匹配与情绪管理展开，支持用户记录日记并发现相似心情内容。',
+          url: 'https://github.com/csfwff/2life'
+        },
+        {
+          title: 'AME',
+          des: 'Android端Markdown富文本编辑器，基于b3log/vditor进行移动端编辑体验适配。',
+          url: 'https://github.com/csfwff/Android-Markdown-Editor'
+        },
+        {
+          title: '篆鼠',
+          des: '小篆文字识别APP，基于Tesseract OCR识别引擎，同时集成说文解字查询、简体字转换等能力。',
+          url: 'https://sj.qq.com/myapp/detail.htm?apkName=com.xiamo.zuanshu'
+        },
+        {
           title: 'Bolo博客',
-          des: '基于B3log搭建个人博客系统，参与博客设计以及部分皮肤开发，并参与B3log开源组织。',
+          des: '基于Java的开源博客系统，参与博客设计以及部分皮肤开发，并参与B3log开源组织。',
           url: 'https://github.com/csfwff/bolo-solo'
         }
       ],
@@ -251,8 +235,8 @@ export default {
     },
     contact: {
       title: '联系我',
-      desList1: ['灵感', '创造', '梦想', '自由'],
-      desList2: ['热爱学习，想要获取更多知识', '喜欢尝试，期待新鲜事物', '爱生活，爱游戏', '和朋友一起创造激动人心的代码'],
+      desList1: ['学习', '质量', '协作', '体验'],
+      desList2: ['自学能力突出，可快速上手新技术并落地项目', '具备良好的需求理解、团队协作与项目迭代能力', '持续追求代码质量、项目稳定性与用户体验优化', '求职意向：Web前端 / Android'],
       download: '下载简历',
       fileList: [
         // {
@@ -271,7 +255,7 @@ export default {
         },
         {
           icon: sBlog,
-          url: 'https://www.sszsj.cc'
+          url: 'https://sszsj.com/'
         },
         {
           icon: sZh,

@@ -30,10 +30,10 @@ new MVVM({
       this.isShowNav = false;
     },
     switchLang(index) {
-      const language = index === 1 ? 'en' : 'cn';
-      this.isEng = index === 1;
+      const language = index === 1 && res.en ? 'en' : 'cn';
+      this.isEng = language === 'en';
 
-      Object.keys(res.en).forEach((i) => {
+      Object.keys(res[language]).forEach((i) => {
         this[i] = res[language][i];
       });
 
@@ -170,6 +170,6 @@ function setExpTouch3D() {
  */
 function consoleTip() {
   console.info('·Hi! 朋友，感谢您愿意调试简历代码。');
-  console.info('·本简历采用 %cmini MVVM (https://www.npmjs.com/package/@fe_korey/mvvm )，Fullpage(https://github.com/zhaoky/fullpage )，webpack开发构建。', 'color:red');
-  console.info('·本源码及其mvvm版已开源在(https://github.com/zhaoky/flqin )，欢迎交流探讨。任何问题请提issue，%c喜欢的话请点个star吧！^_^', 'color:#da3c8c');
+  console.info('·本简历采用 %cmini MVVM，Fullpage，webpack开发构建。', 'color:red');
+  console.info('·更多项目可查看%chttps://github.com/csfwff', 'color:#da3c8c');
 }

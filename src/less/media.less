@@ -175,37 +175,70 @@
       }
       .experience {
         .content {
-          top: 22vh;
+          top: 18vh;
           .slider {
-            width: 750px;
-            height: 350px;
+            width: 880px;
+            max-width: 88vw;
+            height: 420px;
             &-container {
               display: flex;
-              align-items: center;
+              align-items: stretch;
+              padding: 42px 48px;
+              overflow: hidden;
+              .left {
+                display: flex;
+                flex: 0 0 290px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0 36px 0 0;
+                border-right: 1px solid rgba(148, 92, 76, 0.18);
+                border-bottom: 0;
+              }
+              .img {
+                width: 150px;
+                height: 88px;
+                margin: 0 auto 22px;
+              }
               h4 {
-                font-size: 20px;
+                font-size: 21px;
+                line-height: 1.45;
               }
               .-post {
                 font-size: 15px;
               }
               .right {
-                margin-left: 100px;
+                flex: 1;
+                min-width: 0;
+                margin-left: 0;
+                padding: 2px 0 0 36px;
+                overflow-y: auto;
                 .-time {
-                  font-size: 20px;
+                  font-size: 18px;
+                  margin-bottom: 18px;
+                  padding: 8px 14px;
                 }
                 .-list {
-                  width: 400px;
+                  width: auto;
+                  padding-left: 24px;
                   .exp-item {
                     font-size: 16px;
-                    line-height: 30px;
+                    line-height: 28px;
+                    margin: 8px 0;
+                    &::before {
+                      top: 10px;
+                      left: -20px;
+                      width: 8px;
+                      height: 8px;
+                    }
                   }
                 }
               }
             }
           }
           .shout-cut {
-            padding-top: 10vh;
-            width: 200px;
+            padding-top: 7vh;
+            width: 220px;
           }
         }
       }

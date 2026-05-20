@@ -1,7 +1,7 @@
 {
-  "name": "@fe_korey/resume",
+  "name": "tang-moxia-resume",
   "version": "4.0.0",
-  "description": "赵柯宇的web前端工程师简历",
+  "description": "唐墨夏的Web前端与Android开发工程师简历",
   "main": "dist/index.html",
   "homepage": ".",
   "keywords": [
@@ -65,21 +65,22 @@
     "webpackbar": "^4.0.0"
   },
   "scripts": {
-    "build": "rm -rf dist && cross-env NODE_ENV=production BUILD_TYPE=mvvm webpack",
-    "build:seo": "rm -rf dist && cross-env NODE_ENV=production BUILD_TYPE=seo webpack",
+    "clean": "node -e \"const fs=require('fs');if(fs.existsSync('dist')){if(fs.rmSync){fs.rmSync('dist',{recursive:true,force:true});}else{fs.rmdirSync('dist',{recursive:true});}}\"",
+    "build": "yarn clean && cross-env NODE_ENV=production BUILD_TYPE=mvvm webpack",
+    "build:seo": "yarn clean && cross-env NODE_ENV=production BUILD_TYPE=seo webpack",
     "dev": "cross-env NODE_ENV=development BUILD_TYPE=mvvm webpack-dev-server",
     "dev:seo": "cross-env NODE_ENV=development BUILD_TYPE=seo webpack-dev-server",
-    "lint": "eslint src && stylelint 'src/**/*.less'",
-    "fix": "eslint src --fix && stylelint 'src/**/*.less' --fix",
-    "analyze": "cross-env NODE_ENV=production BUILD_TYPE=mvvm MODE=analysis webpack",
-    "analyze:seo": "cross-env NODE_ENV=production BUILD_TYPE=seo MODE=analysis webpack"
+    "lint": "eslint src && stylelint \"src/**/*.less\"",
+    "fix": "eslint src --fix && stylelint \"src/**/*.less\" --fix",
+    "analyze": "yarn clean && cross-env NODE_ENV=production BUILD_TYPE=mvvm MODE=analysis webpack",
+    "analyze:seo": "yarn clean && cross-env NODE_ENV=production BUILD_TYPE=seo MODE=analysis webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhaoky/flqin.git"
+    "url": "git+https://github.com/csfwff/flqin.git"
   },
-  "bugs": "https://github.com/zhaoky/flqin/issues",
-  "author": "Korey <keyu.zhao@foxmail.com>",
+  "bugs": "https://github.com/csfwff/flqin/issues",
+  "author": "唐墨夏 <csfwff@163.com>",
   "license": "MIT",
   "husky": {
     "hooks": {
